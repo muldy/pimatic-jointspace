@@ -1,0 +1,16 @@
+rest('http://ip:1925/1/audio/volume').then(function(response) {
+    console.log('response: ', response.entity);
+    });
+
+http://ip:1925/1/audio/volume
+http://ip:1925/1/channels
+http://ip:1925/1/channellists
+http://ip:1925/1/sources
+
+http://ip:1925/1/system
+http://ip:1925/1/system/country
+http://ip:1925/1/system/name
+http://ip:1925/1/system/menulanguage
+http://ip:1925/1/system/model
+http://ip:1925/1/system/serialnumber
+http://ip:1925/1/system/softwareversion

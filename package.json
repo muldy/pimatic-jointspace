@@ -1,21 +1,24 @@
-{ "name": "pimatic-plugin-template",
-  "description": "The plugin description",
-  "author": "Your Name <you@example.com> (http://your-website)",
-  "main": "my-plugin",
+{
+  "name": "pimatic-jointspace",
+  "description": "JointSpace plugin",
+  "author": "Muldy <muldy@github.com> (https://github.com/muldy)",
+  "main": "jointspace",
   "files": [
-    "my-plugin.coffee",
+    "jointspace.coffee",
     "README.md",
-    "my-plugin-config-schema.coffee"
+    "jointspace-config-schema.coffee",
+    "device-config-schema.coffee"
   ],
   "version": "0.8.0",
-  "homepage": "http://your-plugin-website",
-  "private": true,
+  "homepage": "https://github.com/muldy/pimatic-jointspace",
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-plugin-template.git"
+    "url": "git@github.com:muldy/pimatic-jointspace.git"
   },
-  "configSchema": "my-plugin-config-schema.coffee",
+  "configSchema": "jointspace-config-schema.coffee",
   "dependencies": {
+    "rest": "^2.0.0"
   },
   "peerDependencies": {
     "pimatic": "0.8.*"
