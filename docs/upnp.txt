@@ -1,0 +1,10 @@
+
+HEADERS:
+ { 'CACHE-CONTROL': 'max-age=1800',
+  DATE: 'Fri, 09 Sep 2016 14:07:41 GMT',
+  EXT: '',
+  LOCATION: 'http://10.10.10.4:49153/nmrDescription.xml',
+  SERVER: 'Windows2000/0.0 UPnP/1.0 PhilipsIntelSDK/1.4 DLNADOC/1.50',
+  'X-USER-AGENT': 'redsonic',
+  ST: 'upnp:rootdevice',
+  USN: 'uuid:F00DBABE-SA5E-BABA-DADA188ED5AA22EE::upnp:rootdevice' }

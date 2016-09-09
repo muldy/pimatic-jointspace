@@ -18,7 +18,10 @@
   },
   "configSchema": "jointspace-config-schema.coffee",
   "dependencies": {
-    "rest": "^2.0.0"
+    "node-ssdp": "^2.8.0",
+    "rest": "^2.0.0",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
   },
   "peerDependencies": {
     "pimatic": "0.8.*"
