@@ -1,7 +1,7 @@
 # #Shell device configuration options
 module.exports = {
   title: "jointspace device config schemas"
-  WemoSwitch: {
+  JointSapceDevice: {
     title: "jointspace config options"
     type: "object"
     properties:
